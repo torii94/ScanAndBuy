@@ -1,0 +1,16 @@
+<resources>
+
+    <dimen name="fab_margin">8dp</dimen>
+    <dimen name="standard_55">62dp</dimen>
+    <dimen name="standard_105">127dp</dimen>
+    <dimen name="standard_165">155dp</dimen>
+
+
+    <dimen name="standard_21">21dp</dimen>
+    <dimen name="standard_45">45dp</dimen>
+
+    <dimen name="standard_12">12dp</dimen>
+    <dimen name="standard_23">23dp</dimen>
+
+
+</resources>

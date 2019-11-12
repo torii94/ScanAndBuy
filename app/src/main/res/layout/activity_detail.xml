@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<EditText
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/inputSearch"
+    android:layout_width="280dp"
+    android:layout_height="40dp"
+    android:cursorVisible="true"
+    android:hint="Search"
+    android:imeOptions="actionDone"
+    android:inputType="text"
+    android:textColor="@android:color/white"
+    android:textCursorDrawable="@android:color/white" />

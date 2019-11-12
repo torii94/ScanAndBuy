@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <item
+        android:id="@+id/camera"
+        android:orderInCategory="100"
+        android:title="camera"
+        android:icon="@drawable/ic_photo_camera"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/validateBtn"
+        android:orderInCategory="100"
+        android:title="validate"
+        android:icon="@drawable/ic_check_box_black_24dp"
+        app:showAsAction="always" />
+</menu>

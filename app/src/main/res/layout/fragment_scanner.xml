@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:menu="@menu/scan_camera"
+    android:background="@drawable/login_background">
+
+   <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_above="@+id/bottomBox"
+       android:fitsSystemWindows="true">
+
+      <android.support.design.widget.AppBarLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+
+      </android.support.design.widget.AppBarLayout>
+
+      <android.support.v7.widget.RecyclerView
+          android:id="@+id/contact_list_chat"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:clipToPadding="false"
+
+          android:orientation="vertical"
+          />
+
+
+      <LinearLayout
+          android:id="@+id/fabLayout1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="bottom|end"
+          android:layout_marginRight="@dimen/standard_23"
+          android:layout_marginBottom="@dimen/standard_23"
+          android:background="@drawable/rounded_button"
+          android:clipToPadding="false"
+          android:gravity="center_vertical"
+          android:padding="@dimen/standard_12"
+          android:visibility="gone">
+         <!--    if you are not using Snackbar with this activity then remove below line from every place of the file:
+           app:layout_behavior="com.ajaysinghdewari.floatingactionbuttonmenu.activities.utils.MoveUpwardBehavior"
+           the above line enables the view to Scrolls up with the snackbar as, the FAB do automaticaly scrolls up
+           when the snackbar appear, so if snackbar is not used please remove the above line from every view present in the xml-->
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text=" Check Bonus  "
+             android:textColor="@android:color/white"
+             android:textSize="16sp"
+             android:textStyle="bold" />
+
+         <android.support.design.widget.FloatingActionButton
+             android:id="@+id/fab1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:background="@color/com_facebook_button_background_color_focused_disabled"
+             app:backgroundTint="@android:color/holo_green_dark"
+             app:fabSize="mini"
+             app:srcCompat="@drawable/ic_check_circle_white_24dp" />
+      </LinearLayout>
+
+
+      <LinearLayout
+          android:id="@+id/fabLayout3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="bottom|end"
+          android:layout_marginRight="@dimen/standard_23"
+          android:layout_marginBottom="@dimen/standard_23"
+          android:background="@drawable/rounded_button"
+          android:clipToPadding="false"
+          android:gravity="center_vertical"
+          android:padding="@dimen/standard_12"
+          android:visibility="gone">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="  Use bonus      "
+             android:textColor="@android:color/white"
+             android:textSize="16sp"
+             android:textStyle="bold" />
+
+         <android.support.design.widget.FloatingActionButton
+             android:id="@+id/fab3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:tint="@android:color/white"
+             app:backgroundTint="@android:color/holo_orange_dark"
+             app:fabSize="mini"
+             app:srcCompat="@drawable/ic_monetization_on_black_24dp" />
+      </LinearLayout>
+
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginRight="1dp"
+          android:gravity="center_vertical"
+          android:clipToPadding="false"
+          android:padding="@dimen/standard_12"
+          android:layout_marginBottom="@dimen/fab_margin"
+          android:layout_gravity="bottom|end">
+
+
+         <android.support.design.widget.FloatingActionButton
+             android:id="@+id/fab"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="bottom|end"
+             android:gravity="center_vertical"
+             app:backgroundTint="#AD2912"
+             app:fabSize="normal"
+             app:srcCompat="@drawable/ic_add_circle_black_24dp"
+             tools:backgroundTint="@color/zxing_viewfinder_laser" />
+      </LinearLayout>
+
+
+
+
+   </android.support.design.widget.CoordinatorLayout>
+
+   <LinearLayout
+       android:id="@+id/bottomBox"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginBottom="0dp"
+       android:background="@color/design_default_color_primary"
+       android:orientation="horizontal">
+
+      <TextView
+
+          android:layout_width="188dp"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/bottomBox"
+          android:layout_gravity="left"
+          android:layout_marginTop="-0dp"
+          android:paddingTop="10dp"
+          android:text="   Total "
+          android:textColor="@android:color/white"
+          android:textSize="20dp"
+          android:textStyle="bold|italic" />
+
+      <TextView
+
+          android:id="@+id/totalPriceTxt"
+          android:layout_width="match_parent"
+          android:layout_height="52dp"
+          android:layout_gravity="center"
+          android:paddingTop="10dp"
+          android:text="5 KM"
+          android:textColor="@android:color/white"
+          android:textSize="23dp"
+          android:textStyle="bold|italic" />
+
+
+   </LinearLayout>
+</RelativeLayout>

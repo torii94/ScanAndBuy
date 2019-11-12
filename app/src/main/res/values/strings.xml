@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Scan&amp;Buy</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_scanner">ScannerActivity</string>
+    <string name="turn_off_flashlight">FlashLight on</string>
+    <string name="turn_on_flashlight">flashLight off</string>
+    <string name="title_activity_main">QR and Barcode Scanner</string>
+    <string name="message">Place a barcode inside the viewfinder rectangle to scan it.</string>
+    <string name="facebook_app_id">317369102222184</string>
+    <string name="fb_login_protocol_scheme">fb317369102222184</string>
+    <string name="twitter_consumer_key" translatable="false">bS7A03QggsM6XJPhVi5bBq3lx</string>
+    <string name="twitter_consumer_secret" translatable="false">75t1eosFsY5FEG5mfwwLoQoYtTOeIyQvWeNpWxZsJQvi9Cx8qU</string>
+
+
+</resources>
